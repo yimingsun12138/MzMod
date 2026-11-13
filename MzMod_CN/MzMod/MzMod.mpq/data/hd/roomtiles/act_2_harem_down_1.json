@@ -1,0 +1,932 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/env/UI/vfx_mouse_over_light_sml.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles"
+      }
+    ],
+    "models": [],
+    "skeletons": [],
+    "animations": [],
+    "textures": [],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "act_2_harem_down_1",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 2766917686,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0,
+            "y": 0.3826834,
+            "z": 0,
+            "w": 0.9238795
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_vfx1",
+      "id": 1178822201,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "component_vfx1",
+          "filename": "data/hd/vfx/particles/env/UI/vfx_mouse_over_light_sml.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "component_transform1",
+          "position": {
+            "x": 7,
+            "y": -2,
+            "z": 3
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_0",
+      "id": 1297743873,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_0_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_0_transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_1",
+      "id": 1297743874,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_1_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_1_transform",
+          "position": {
+            "x": 20,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_2",
+      "id": 1297743875,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_2_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_2_transform",
+          "position": {
+            "x": 40,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_3",
+      "id": 1297743876,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_3_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_3_transform",
+          "position": {
+            "x": 60,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_4",
+      "id": 1297743877,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_4_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_4_transform",
+          "position": {
+            "x": 80,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_5",
+      "id": 1297743878,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_5_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_5_transform",
+          "position": {
+            "x": 100,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_6",
+      "id": 1297743879,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_6_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_6_transform",
+          "position": {
+            "x": 120,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_7",
+      "id": 1297743880,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_7_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_7_transform",
+          "position": {
+            "x": -20,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_8",
+      "id": 1297743881,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_8_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_8_transform",
+          "position": {
+            "x": -40,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_9",
+      "id": 1297743882,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_9_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_9_transform",
+          "position": {
+            "x": -60,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_10",
+      "id": 1297743883,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_10_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_10_transform",
+          "position": {
+            "x": -80,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_11",
+      "id": 1297743884,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_11_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_11_transform",
+          "position": {
+            "x": -100,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_12",
+      "id": 1297743885,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_12_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_12_transform",
+          "position": {
+            "x": -120,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_13",
+      "id": 1297743886,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_13_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_13_transform",
+          "position": {
+            "x": 0,
+            "y": 20,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_14",
+      "id": 1297743887,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_14_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_14_transform",
+          "position": {
+            "x": 0,
+            "y": 40,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_15",
+      "id": 1297743888,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_15_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_15_transform",
+          "position": {
+            "x": 0,
+            "y": 60,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_16",
+      "id": 1297743889,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_16_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_16_transform",
+          "position": {
+            "x": 0,
+            "y": 80,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_17",
+      "id": 1297743890,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_17_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_17_transform",
+          "position": {
+            "x": 0,
+            "y": 100,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_18",
+      "id": 1297743891,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_18_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_18_transform",
+          "position": {
+            "x": 0,
+            "y": 120,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_19",
+      "id": 1297743892,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_19_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_19_transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 20
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_20",
+      "id": 1297743893,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_20_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_20_transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 40
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_21",
+      "id": 1297743894,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_21_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_21_transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 60
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_22",
+      "id": 1297743895,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_22_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_22_transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 80
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_23",
+      "id": 1297743896,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_23_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_23_transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 100
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_entrance_guide_24",
+      "id": 1297743897,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_entrance_guide_24_vfx",
+          "filename": "data/hd/vfx/particles/missiles/light_beams/FX_light_beams_missiles.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_entrance_guide_24_transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 120
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 50,
+            "y": 50,
+            "z": 50
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    }
+  ]
+}

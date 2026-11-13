@@ -1,0 +1,71 @@
+{
+  "type": "HoradricCubePanel",
+  "name": "HoradricCubeMiniLayout",
+  "fields": {
+    "priority": 10,
+    "rect": {
+      "x": -342,
+      "y": -441
+    },
+    "anchor": {
+      "x": 1,
+      "y": 1
+    }
+  },
+  "children": [
+    {
+      "type": "ImageWidget",
+      "name": "background",
+      "fields": {
+        "filename": "PANEL\\Horadric_Cube\\Cube_Grid"
+      }
+    },
+    {
+      "type": "ButtonWidget",
+      "name": "convert",
+      "fields": {
+        "rect": {
+          "x": -71.75,
+          "y": 290.7,
+          "scale": 0.5
+        },
+        "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
+        "tooltipString": "@strUiMenu2",
+        "hoveredFrame": 2,
+        "onClickMessage": "HoradricCubePanelMessage:Convert"
+      }
+    },
+    {
+      "type": "ButtonWidget",
+      "name": "close",
+      "fields": {
+        "rect": {
+          "x": -82.62,
+          "y": 357.8,
+          "scale": 0.9666666666666667
+        },
+        "filename": "PANEL\\closebtn_4x",
+        "hoveredFrame": 3,
+        "tooltipString": "@strClose",
+        "sound": "cursor_close_window_hd",
+        "onClickMessage": "PanelManager:ClosePanel:HoradricCubeMiniLayout"
+      }
+    },
+    {
+      "type": "InventoryGridWidget",
+      "name": "grid",
+      "fields": {
+        "rect": {
+          "x": 25,
+          "y": 20
+        },
+        "cellCount": {
+          "x": 3,
+          "y": 4
+        },
+        "cellSize": "$ItemCellSize",
+        "gemSocketFilename": "PANEL\\gemsocket"
+      }
+    }
+  ]
+}
