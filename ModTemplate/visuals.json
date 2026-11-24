@@ -1,0 +1,173 @@
+{
+  "missile_table": "data/hd/missiles/missiles.json",
+  "overrides": {
+    "assassin_eye_care": {
+      "native_missiles": {
+        "bladesoficecubes": "ice_break_small",
+        "bladesoficeexplode": "ice_arrow_explode",
+        "clawsofthunderbolt": "charged_bolt",
+        "clawsofthundernova": "electric_nova",
+        "fistsoffireexplode": "exp_arrow_explode",
+        "fistsoffirefirewall": "ground_fire_small",
+        "royalstrikechainlightning": "royalstrikechainlightning",
+        "royalstrikechaosice": "ice_bolt",
+        "royalstrikemeteorexplode": "exp_arrow_explode",
+        "royalstrikemeteorfire": "ground_fire_small"
+      }
+    },
+    "auto_open_cube": {
+      "paths": [
+        "data/global/ui/layouts/hudpanelhd.json",
+        "data/global/ui/layouts/mzmodcubestartuphd.json",
+        "data/global/ui/layouts/mzmodgameplayhudhd.json",
+        "data/global/ui/layouts/controller/mzmodgameplayhudhd.json"
+      ],
+      "requires": [
+        "mini_cube"
+      ]
+    },
+    "custom_font": {
+      "paths": [
+        "data/hd/ui/fonts/arfangxinshuh7c95b5_eb_t.ttf"
+      ]
+    },
+    "entrances": {
+      "paths": [
+        "data/hd/roomtiles/act_1_catacombs_down.json",
+        "data/hd/roomtiles/act_1_cave_down.json",
+        "data/hd/roomtiles/act_1_cave_up.json",
+        "data/hd/roomtiles/act_1_crypt_down.json",
+        "data/hd/roomtiles/act_1_graveyard_to_crypt_1.json",
+        "data/hd/roomtiles/act_1_graveyard_to_crypt_2.json",
+        "data/hd/roomtiles/act_1_jail_down.json",
+        "data/hd/roomtiles/act_1_jail_up.json",
+        "data/hd/roomtiles/act_1_tower_to_crypt.json",
+        "data/hd/roomtiles/act_1_tower_to_wilderness.json",
+        "data/hd/roomtiles/act_1_wilderness_to_cave_cliff_l.json",
+        "data/hd/roomtiles/act_1_wilderness_to_cave_cliff_r.json",
+        "data/hd/roomtiles/act_1_wilderness_to_cave_floor_l.json",
+        "data/hd/roomtiles/act_1_wilderness_to_cave_floor_r.json",
+        "data/hd/roomtiles/act_1_wilderness_to_tower.json",
+        "data/hd/roomtiles/act_2_basement_down.json",
+        "data/hd/roomtiles/act_2_desert_to_lair.json",
+        "data/hd/roomtiles/act_2_desert_to_sewer_trap.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_l_1.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_l_2.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_r_1.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_r_2.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_viper.json",
+        "data/hd/roomtiles/act_2_harem_down_1.json",
+        "data/hd/roomtiles/act_2_harem_down_2.json",
+        "data/hd/roomtiles/act_2_lair_down.json",
+        "data/hd/roomtiles/act_2_sewer_dock_to_town.json",
+        "data/hd/roomtiles/act_2_sewer_down.json",
+        "data/hd/roomtiles/act_2_tomb_down.json",
+        "data/hd/roomtiles/act_3_dungeon_down.json",
+        "data/hd/roomtiles/act_3_jungle_to_dungeon_fort.json",
+        "data/hd/roomtiles/act_3_jungle_to_dungeon_hole.json",
+        "data/hd/roomtiles/act_3_jungle_to_spider.json",
+        "data/hd/roomtiles/act_3_kurast_to_temple.json",
+        "data/hd/roomtiles/act_3_mephisto_down_l.json",
+        "data/hd/roomtiles/act_3_mephisto_down_r.json",
+        "data/hd/roomtiles/act_3_sewer_down.json",
+        "data/hd/roomtiles/act_4_mesa_to_lava.json",
+        "data/hd/roomtiles/act_5_baal_temple_down_l.json",
+        "data/hd/roomtiles/act_5_baal_temple_down_r.json",
+        "data/hd/roomtiles/act_5_barricade_down_floor.json",
+        "data/hd/roomtiles/act_5_barricade_down_wall_l.json",
+        "data/hd/roomtiles/act_5_barricade_down_wall_r.json",
+        "data/hd/roomtiles/act_5_ice_caves_down_floor.json",
+        "data/hd/roomtiles/act_5_ice_caves_down_l.json",
+        "data/hd/roomtiles/act_5_ice_caves_down_r.json",
+        "data/hd/roomtiles/act_5_temple_down.json"
+      ]
+    },
+    "hall_directions": {
+      "paths": [
+        "data/hd/env/preset/expansion/wildtemple/nihle.json",
+        "data/hd/env/preset/expansion/wildtemple/nihln.json",
+        "data/hd/env/preset/expansion/wildtemple/nihls.json",
+        "data/hd/env/preset/expansion/wildtemple/nihlw.json"
+      ]
+    },
+    "health_bars": {
+      "paths": [
+        "data/global/ui/layouts/hudmonsterhealthhd.json",
+        "data/global/ui/layouts/controller/hudmonsterhealthhd.json",
+        "data/global/ui/layouts/hireablespanelhd.json"
+      ]
+    },
+    "horazon_journal": {
+      "paths": [
+        "data/hd/objects/env_pillars/arcane_tome.json"
+      ]
+    },
+    "hud_style": {
+      "paths": [
+        "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
+        "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite"
+      ]
+    },
+    "mini_cube": {
+      "paths": [
+        "data/global/ui/layouts/playerinventoryexpansionlayouthd.json",
+        "data/global/ui/layouts/controller/hudpanelhd.json",
+        "data/global/ui/layouts/horadriccubeminilayouthd.json",
+        "data/hd/global/ui/panel/hud_02/minicubeicon.sprite",
+        "data/hd/global/ui/panel/hud_02/minicubeicon.lowend.sprite",
+        "data/hd/global/ui/panel/horadric_cube/cube_grid.sprite",
+        "data/hd/global/ui/panel/horadric_cube/cube_grid.lowend.sprite"
+      ]
+    },
+    "quest_books": {
+      "paths": [
+        "data/hd/objects/env_pillars/lam_esens_tome.json",
+        "data/hd/objects/env_pillars/tower_tome.json",
+        "data/hd/vfx/particles/objects/quest_books/mzmod_book_glow.particles",
+        "data/hd/vfx/textures/mask/mzmod_book_glowmap.texture",
+        "data/hd/vfx/textures/light/mzmod_book_raymask.texture"
+      ]
+    },
+    "sorceress_eye_care": {
+      "native_missiles": {
+        "thunderstorm_1": "lightningbolt_big",
+        "thunderstorm_2": "lightningbolt_big",
+        "thunderstorm_3": "lightningbolt_big",
+        "thunderstorm_4": "lightningbolt_big"
+      },
+      "paths": [
+        "data/hd/overlays/sorceress/thunderstormcast.json"
+      ]
+    },
+    "tomb_symbols": {
+      "paths": [
+        "data/hd/roomtiles/act_2_desert_to_tomb_tal_1.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_tal_2.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_tal_3.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_tal_4.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_tal_5.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_tal_6.json",
+        "data/hd/roomtiles/act_2_desert_to_tomb_tal_7.json"
+      ]
+    },
+    "waypoints": {
+      "paths": [
+        "data/hd/objects/waypoint_portals/inner_hell_waypoint.json",
+        "data/hd/objects/waypoint_portals/sewer_waypoint.json",
+        "data/hd/objects/waypoint_portals/temple_waypoint.json",
+        "data/hd/objects/waypoint_portals/travincal_waypoint.json",
+        "data/hd/objects/waypoint_portals/waypoint_act_2.json",
+        "data/hd/objects/waypoint_portals/waypoint_act_3.json",
+        "data/hd/objects/waypoint_portals/waypoint_baal.json",
+        "data/hd/objects/waypoint_portals/waypoint_cellar.json",
+        "data/hd/objects/waypoint_portals/waypoint_desert_valley.json",
+        "data/hd/objects/waypoint_portals/waypoint_exp.json",
+        "data/hd/objects/waypoint_portals/waypoint_ice_cave.json",
+        "data/hd/objects/waypoint_portals/waypoint_inside_act_1.json",
+        "data/hd/objects/waypoint_portals/waypoint_outside_act_1.json",
+        "data/hd/objects/waypoint_portals/waypoint_outside_act_4.json",
+        "data/hd/objects/waypoint_portals/waypoint_wilderness.json"
+      ]
+    }
+  }
+}

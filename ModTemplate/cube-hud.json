@@ -1,0 +1,5 @@
+{
+  "entry_panel": "HUDPanel",
+  "gameplay_panel": "MzModGameplayHUD",
+  "startup_panel": "MzModCubeStartup"
+}

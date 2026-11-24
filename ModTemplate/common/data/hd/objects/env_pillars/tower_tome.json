@@ -1,0 +1,144 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/objects/quest_books/mzmod_book_glow.particles"
+      }
+    ],
+    "models": [
+      {
+        "path": "data/hd/objects/env_pillars/arcane_tome/model/torso.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/FX_Mesh_Diskmesh_wide_subdiv_Fanaticism.model"
+      }
+    ],
+    "skeletons": [
+      {
+        "path": "data/hd/objects/env_pillars/arcane_tome/skeleton/arcane_tome.skeleton"
+      }
+    ],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_alb.texture"
+      },
+      {
+        "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_nrm.texture"
+      },
+      {
+        "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_orm.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapCurve_blinkfix.texture"
+      }
+    ],
+    "physics": [],
+    "json": [
+      {
+        "path": "data/hd/objects/env_pillars/arcane_tome/arcane_tome_state_machine.json"
+      }
+    ],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "tower_tome",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 4277069350,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "data/hd/objects/env_pillars/arcane_tome/arcane_tome_state_machine.json",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0,
+            "y": 0.3826834,
+            "z": 0,
+            "w": 0.9238795
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        },
+        {
+          "type": "SkeletonDefinitionComponent",
+          "name": "component_skeleton",
+          "filename": "data/hd/objects/env_pillars/arcane_tome/skeleton/arcane_tome.skeleton",
+          "enableWeaponAttachInertialization": false
+        },
+        {
+          "type": "MountableObjectComponent",
+          "name": "tower_tome_MountableObjectComponent",
+          "mountId": 636296847,
+          "mountRadius": 5
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_torso",
+      "id": 514414515,
+      "components": [
+        {
+          "type": "UnitPartComponent",
+          "name": "component_part_torso",
+          "part": "torso",
+          "variant": "lit"
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "component_model_torso",
+          "filename": "data/hd/objects/env_pillars/arcane_tome/model/torso.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mzmod_quest_guide_0",
+      "id": 1297743873,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mzmod_quest_guide_0_vfx",
+          "filename": "data/hd/vfx/particles/objects/quest_books/mzmod_book_glow.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mzmod_quest_guide_0_transform",
+          "position": {
+            "x": -0.5,
+            "y": 0.25,
+            "z": -0.45
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.15,
+            "y": 0.15,
+            "z": 0.15
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    }
+  ]
+}

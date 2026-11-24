@@ -1,0 +1,4 @@
+ui-glyphs.ttf is a subset of Droid Sans Fallback by Google, distributed under the Apache License 2.0.
+Copyright 2006, 2007, 2008, 2009, 2010 Google Corp. Droid is a trademark of Google Corp.
+The subset retains the characters used by the controller interface and rune catalog.
+Original font source: https://android.googlesource.com/platform/frameworks/base/

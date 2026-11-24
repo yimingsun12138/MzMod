@@ -1,0 +1,9 @@
+{
+  "runeword": { "bank": "item-runes", "id": 20635, "key": "Runeword130" },
+  "shield": { "bank": "item-names", "id": 20366, "key": "uit" },
+  "sword": { "bank": "item-names", "id": 2005, "key": "crs" },
+  "runes": [
+    { "bank": "item-runes", "id": 20464, "key": "r09" },
+    { "bank": "item-runes", "id": 20443, "key": "r30" }
+  ]
+}
